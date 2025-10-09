@@ -1,0 +1,697 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica;
+  background-color: rgb(255, 255, 255, 0.5);
+  /* filter: grayscale(10px); */
+}
+
+h1 {
+  font-size: 25px;
+}
+
+.target-icon {
+  height: 30px;
+}
+
+nav {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  padding-block: 20px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.pink-div {
+  background-color: #fb236a;
+  display: flex;
+  align-items: center;
+  padding-inline: 15px;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 3px;
+}
+
+.pink-div p {
+  color: #fff;
+}
+
+.jobhuntdiv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+p {
+  color: #8d9b9e;
+  font-size: 14px;
+}
+
+.plus {
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.keyandregister {
+  display: flex;
+  align-items: center;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+}
+
+.keyandlogin {
+  display: flex;
+  gap: 15px;
+}
+
+.keyandregister i {
+  border-color: #bcc5c6;
+}
+
+.loginsvg {
+  height: 15px;
+}
+
+.key {
+  height: 15px;
+}
+
+.div-with-background-image {
+  background-image: url("./src/home-bg.jpg");
+}
+
+.div-with-background-color {
+  height: 100vh;
+  background: rgb(40, 48, 102, 0.8);
+}
+
+.div-with-background-color {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.easytext {
+  font-size: 45px;
+  color: #fff;
+}
+
+.findjobs {
+  color: #fff;
+  font-size: 17px;
+  margin-block: 10px;
+}
+
+.inputdiv1 {
+  display: flex;
+  width: 55%;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 12px;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.inputdiv2 {
+  background-color: #fff;
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  padding: 12px;
+  border-radius: 5px;
+  align-items: center;
+}
+
+input {
+  width: 70%;
+  display: flex;
+  border: none;
+  outline: none;
+}
+
+.searchicon {
+  color: white;
+}
+
+.background-color-for-search {
+  background-color: rgb(139, 145, 221);
+  width: 6%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+}
+
+.keyboard {
+  color: rgb(251, 35, 106);
+  align-self: center;
+}
+
+.flexdivfortheinput {
+  display: flex;
+  width: 80%;
+
+  margin: 40px auto;
+  /* justify-content: space-between; */
+  gap: 30px;
+}
+
+.arrow {
+  color: rgb(251, 35, 106);
+  font-size: 100px;
+}
+
+/* .arrow:hover {
+  color: #fff;
+} */
+
+.white-div-around {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+/* .white-div-around:hover {
+  background-color: #fb236a;
+} */
+
+.jj {
+  border: 3px solid white;
+  padding: 35px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -70;
+  right: 45%;
+}
+
+.jj:hover {
+  border-color: #fb236a;
+}
+
+h2 {
+  margin-top: 100px;
+  text-align: center;
+  color: #202020;
+  font-size: 30px;
+}
+
+.high {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.jj:hover > .white-div-around {
+  background-color: #fb236a;
+}
+
+.jj:hover > .white-div-around > .arrow {
+  color: white;
+}
+
+.displaygrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-inline: 100px;
+  margin-block: 50px;
+}
+
+.universalstyleforgrid {
+  text-align: center;
+  border: 1px solid #eef1f1;
+  border-collapse: collapse;
+  padding: 50px;
+  padding-inline: 70px;
+  cursor: pointer;
+}
+
+.nohead {
+  border-top: none;
+  border-left: none;
+}
+
+.noright {
+  border-right: none;
+}
+
+.nobottom {
+  border-bottom: none;
+  border-left: none;
+}
+
+.theicon {
+  color: #8b91dd;
+  font-size: 1000px;
+  height: max-content;
+  transform: scale(2);
+  transform-origin: center;
+}
+
+.marginedp {
+  margin-top: 40px;
+  color: #686e73;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.coloredp {
+  color: #fb236a;
+  margin-top: 10px;
+}
+
+.universalstyleforgrid:hover {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  border: transparent;
+}
+
+.universalstyleforgrid:hover > .theicon {
+  color: #fb236a;
+}
+
+.thebrowsediv {
+  border: #fb236a solid 3px;
+  width: 18%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-block: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.thebrowsediv p {
+  color: #fb236a;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.thebrowsediv:hover {
+  background-color: #fb236a;
+}
+
+.thebrowsediv:hover p {
+  color: #fff;
+}
+
+.divwithanotherbackgroundimage {
+  background-image: url(./src/parallax1.jpg);
+  margin-top: 50px;
+}
+
+.divafterthedivwithbackgroundimage {
+  background-color: rgb(66, 72, 140, 0.9);
+  padding-block: 70px;
+  padding-block-end: 125px;
+}
+
+.divafterthedivwithbackgroundimage p {
+  color: #fff;
+}
+
+.increasedsizedofp {
+  font-size: 45px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.secondinthediv {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.createanaccount {
+  border: #fff solid 3px;
+  width: 18%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-block: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.createanaccount p {
+  font-weight: 700;
+}
+
+.createanaccount:hover {
+  background-color: #fff;
+}
+
+.createanaccount:hover > p {
+  color: #202020;
+}
+
+.featuredjobs {
+  margin-top: 60px;
+  text-align: center;
+  color: #202020;
+  font-size: 25px;
+}
+
+.leadingemployers {
+  text-align: center;
+  font-size: 17px;
+  margin-top: 10px;
+  color: #888888;
+}
+
+.firstflexdiv {
+  display: flex;
+}
+
+.smallimage {
+  height: 50px;
+  display: flex;
+  align-self: center;
+}
+
+.display {
+  display: flex;
+  align-items: center;
+  color: #8b91dd;
+  justify-content: center;
+  padding: 20px;
+}
+
+.display:hover {
+  border: transparent;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+.displays {
+  display: flex;
+  align-items: center;
+  color: #8b91dd;
+  justify-content: center;
+}
+
+.displaying .staricon {
+  transform: scale(0.7);
+}
+
+.staricons {
+  transform: scale(0.7);
+  color: #7f8c92;
+}
+
+.coloredpi {
+  color: #fb236a;
+  margin-block: 10px;
+}
+
+.coloredpin {
+  color: #fb236a;
+  font-weight: bolder;
+  font-size: 17px;
+}
+
+.fulltimediv {
+  border: #0f834d solid 2px;
+  padding-inline: 20px;
+  padding-block: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.fulltimediv p {
+  color: #0f834d;
+}
+
+.fulltimediv:hover {
+  background-color: #0b7c5b;
+}
+
+.fulltimediv:hover > p {
+  color: #fff;
+}
+
+.months {
+  text-align: end;
+}
+
+.thebraves {
+  width: 85%;
+  display: flex;
+  gap: 30px;
+}
+
+.displaying {
+  display: flex;
+  align-items: center;
+}
+
+.fulltimediv2 {
+  border: #dc3545 solid 2px;
+  padding-inline: 20px;
+  padding-block: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.fulltimediv2 p {
+  color: #dc3545;
+}
+
+.fulltimediv2:hover {
+  background: #dc3545;
+}
+
+.fulltimediv2:hover > p {
+  color: #fff;
+}
+
+.fulltimediv3 {
+  border: #1988ff solid 2px;
+  padding-inline: 20px;
+  padding-block: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.fulltimediv3 p {
+  color: #1988ff;
+}
+
+.fulltimediv3:hover {
+  background-color: #1988ff;
+}
+
+.fulltimediv3:hover > p {
+  color: #fff;
+}
+
+.fulltimediv4 {
+  border: #6db5dd solid 2px;
+  padding-inline: 20px;
+  padding-block: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.fulltimediv4 p {
+  color: #6db5dd;
+}
+
+.fulltimediv4:hover {
+  background-color: #6db5dd;
+}
+
+.fulltimediv4:hover > p {
+  color: #fff;
+}
+
+.style {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.paddingforthebiggest {
+  padding: 10px;
+  margin-block: 50px;
+}
+
+.companies {
+  margin-top: 70px;
+  font-size: 30px;
+}
+
+.center {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.flexingthedivs {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  cursor: pointer;
+}
+
+.imageinsidediv {
+  /* height: 80px; */
+  width: 70px;
+}
+
+.thebetterdiv {
+  padding-inline: 60px;
+  padding-block: 20px;
+  border: transparent solid 1px;
+  border-radius: 5px;
+  box-shadow: 0 0 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+.thebetterdiv:hover {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+.flexingthedivs {
+  margin-block: 90px;
+}
+
+.divwithanotherbackgroundimage {
+  background-image: url("./src/inspiration-geometry.png");
+}
+
+.divinthedivthathasabackgroundimage {
+  background-color: rgb(244, 245, 250, 0.4);
+  padding: 50px;
+  margin-bottom: 150px;
+}
+
+.quickcareer {
+  color: #202020;
+  font-size: 30px;
+  text-align: center;
+}
+
+.found {
+  text-align: center;
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.peoplearoundeachimage {
+  position: relative;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.thedivfortheimage {
+  width: 31.5%;
+  position: relative;
+  background-color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.thecomplexdiv {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.thetextdivunder {
+  position: absolute;
+  bottom: -170;
+  left: 5%;
+  background-color: #fff;
+  width: 90%;
+  text-align: center;
+  padding-top: 10px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.divafterthehardshit {
+  background-color: #8b91dd;
+  padding: 30px;
+}
+
+.divafterthehardshit:hover {
+  background-color: #fb236a;
+}
+
+.divafterthehardshit p {
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.divafterthehardshit h2 {
+  color: #fff;
+  margin-top: 0;
+}
+
+.footer {
+  background-color: #24324a;
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.secondcolor {
+  color: #5a5a5a;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.hr {
+  border-bottom: 2px solid #f3f5f5;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+span {
+  height: 10px;
+}
+
+.appleandgoogleplaydiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.alink:hover {
+  color: white;
+}
+
+.gap {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
