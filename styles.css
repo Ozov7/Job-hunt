@@ -14,8 +14,16 @@ h1 {
   font-size: 25px;
 }
 
+.h1 {
+  color: #fff;
+}
+
 .target-icon {
   height: 30px;
+}
+
+.target-iconi {
+  color: #fff;
 }
 
 nav {
@@ -48,6 +56,9 @@ nav {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.jobhuntdivi {
 }
 
 ul {
@@ -657,7 +668,9 @@ h2 {
 .footer {
   background-color: #24324a;
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
+  padding: 75px;
+  /* padding-inline: 60px; */
 }
 
 a {
@@ -690,8 +703,42 @@ span {
   color: white;
 }
 
+.alinks:hover {
+  color: #fff;
+}
+
+.alinks {
+  margin-top: 5px;
+}
+
+.alink {
+  margin-top: 20px;
+}
+
 .gap {
   display: flex;
   justify-content: space-between;
-  gap: 100px;
+  gap: 70px;
+}
+
+.frequently {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.thejobhuntdiv {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.lastdiv {
+  background-color: #1d293e;
+  padding: 40px;
+}
+
+.lastdiv p {
+  text-align: center;
+  color: #8291aa;
 }
