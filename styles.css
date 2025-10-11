@@ -605,6 +605,14 @@ imageinsidediv2 {
   box-shadow: 0 0 2px 0px rgba(0, 0, 0, 0.1);
 }
 
+.thebetterdivi {
+  padding-inline: 60px;
+  padding-block: 20px;
+  border: transparent solid 1px;
+  border-radius: 5px;
+  box-shadow: 0 0 2px 0px rgba(0, 0, 0, 0.1);
+}
+
 .thebetterdiv:hover {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
 }
@@ -613,14 +621,15 @@ imageinsidediv2 {
   margin-block: 90px;
 }
 
-/* .divwithanotherbackgroundimage {
-  background-image: url("./src/inspiration-geometry.png");
-} */
-
-.divinthedivthathasabackgroundimage {
-  background-color: rgb(244, 245, 250, 0.4);
+.divwithanotherbackgroundimaged {
+  background-color: rgb(244, 245, 250, 0.6);
   padding: 50px;
   margin-bottom: 150px;
+  width: 100%;
+}
+
+.divinthedivthathasabackgroundimage {
+  background-image: url("./src/inspiration-geometry.png");
 }
 
 .quickcareer {
@@ -655,7 +664,6 @@ imageinsidediv2 {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  background-color: #fff;
 }
 
 .thetextdivunder {
@@ -722,6 +730,7 @@ span {
 .appleandgoogleplaydiv {
   display: flex;
   flex-direction: column;
+  gap: 30px;
 }
 
 .alink:hover {
@@ -915,7 +924,33 @@ span {
   }
 
   .appleandgoogleplaydiv img {
-    height: 55px;
-    width: 40%;
+    height: 65px;
+    width: 35%;
+  }
+
+  .divafterthehardshit p {
+    font-size: 15px;
+    padding-inline: 90px;
+  }
+
+  .increasedsizedofp {
+    font-size: 25px;
+  }
+
+  .secondinthediv {
+    font-size: 13px;
+    margin-top: 10px;
+  }
+
+  .thebetterdivi {
+    display: none;
+  }
+
+  .thecomplexdiv {
+    flex-direction: column;
+  }
+
+  .thedivfortheimage {
+    width: 100%;
   }
 }
