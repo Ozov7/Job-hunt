@@ -278,6 +278,7 @@ li p {
   justify-content: center;
   padding: 20px;
   border-bottom: 1px solid #f1f3f9;
+  /* width: 100%; */
 }
 
 .display:hover {
@@ -297,11 +298,11 @@ li p {
 }
 
 .displaying .staricon {
-  transform: scale(0.7);
+  transform: scale(0.9);
 }
 
 .staricons {
-  transform: scale(0.7);
+  transform: scale(0.9);
   color: #7f8c92;
 }
 
@@ -320,11 +321,12 @@ li p {
   color: #fb236a;
   font-weight: bolder;
   font-size: 15px;
+  /* align-items: start; */
 }
 
 .fulltimediv {
   border: #0f834d solid 2px;
-  padding-inline: 20px;
+  padding-inline: 13px;
   padding-block: 5px;
   border-radius: 5px;
   cursor: pointer;
@@ -361,7 +363,7 @@ li p {
 
 .fulltimediv2 {
   border: #dc3545 solid 2px;
-  padding-inline: 20px;
+  padding-inline: 13px;
   padding-block: 5px;
   border-radius: 5px;
   cursor: pointer;
@@ -381,7 +383,7 @@ li p {
 
 .fulltimediv3 {
   border: #1988ff solid 2px;
-  padding-inline: 20px;
+  padding-inline: 12px;
   padding-block: 5px;
   border-radius: 5px;
   cursor: pointer;
@@ -401,7 +403,7 @@ li p {
 
 .fulltimediv4 {
   border: #6db5dd solid 2px;
-  padding-inline: 20px;
+  padding-inline: 13px;
   padding-block: 5px;
   border-radius: 5px;
   cursor: pointer;
@@ -570,6 +572,8 @@ select {
   padding: 10px;
   border: none;
   outline: none;
+  color: #8e8e8f;
+  padding-inline: 20px;
 }
 
 .middle {
@@ -593,12 +597,13 @@ select {
 
 .filterdiv p {
   color: #fff;
-  font-size: 20px;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 .filter {
   color: #fff;
-  height: 20px;
+  height: 15px;
 }
 
 .styleunder {
@@ -707,13 +712,15 @@ select {
 
   .styleunder {
     align-items: start;
+    margin-block: 15px;
   }
 
   .smallimage {
-    height: 120px;
+    height: 140px;
   }
 
   .display {
     padding-block: 40px;
+    width: ;
   }
 }
