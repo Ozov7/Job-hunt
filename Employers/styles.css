@@ -238,6 +238,34 @@ span {
   cursor: pointer;
 }
 
+.filterdiv {
+  margin-top: 30px;
+  background-color: #fb236a;
+  display: flex;
+  /* justify-content: center; */
+  padding-inline: 25px;
+  border-radius: 5px;
+  width: 15%;
+  gap: 3px;
+  display: none;
+  cursor: pointer;
+}
+
+.filterdiv:hover {
+  background-color: #262626;
+}
+
+.filterdiv p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.filter {
+  color: #fff;
+  height: 20px;
+}
+
 .searchicon {
   color: #fb236a;
   height: 25px;
@@ -284,11 +312,12 @@ p {
   color: #9297df;
 }
 
-.fulltimediv2 p {
+.fulltimediv2 {
   color: #9297df;
+  display: inline-block;
 }
 
-.fulltimediv3 p {
+.fulltimediv3 {
   color: #9297df;
 }
 
@@ -459,4 +488,67 @@ span {
 .display:hover {
   border: transparent;
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 900px) {
+  .filterdiv {
+    display: block;
+    display: flex;
+    padding-block: 10px;
+    /* padding-inline: 40px; */
+  }
+
+  ul {
+    display: none;
+  }
+
+  .pink-div {
+    display: none;
+  }
+
+  .keyandregister p {
+    display: none;
+  }
+
+  .login p {
+    display: none;
+  }
+
+  .key {
+    height: 30px;
+  }
+
+  .loginsvg {
+    height: 30px;
+  }
+
+  .display-flex {
+    display: none;
+  }
+
+  .seconddiv {
+    border-left: none;
+    width: 90%;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+
+  .gap {
+    /* flex-direction: column; */
+    /* gap: 0; */
+  }
+
+  .appleandgoogleplaydiv img {
+    height: 65px;
+    width: 50%;
+  }
+
+  .display:hover {
+    border: none;
+    box-shadow: none;
+  }
 }
