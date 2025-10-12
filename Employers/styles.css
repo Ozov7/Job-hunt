@@ -1,0 +1,462 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica;
+  background-color: rgb(255, 255, 255, 0.5);
+}
+
+.hamburgericon {
+  display: none;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+.h1 {
+  color: #fff;
+}
+
+.target-icon {
+  height: 30px;
+}
+
+.target-iconi {
+  color: #fff;
+}
+
+nav {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  padding-block: 20px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.pink-div {
+  background-color: #fb236a;
+  display: flex;
+  align-items: center;
+  padding-inline: 15px;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 3px;
+}
+
+.pink-div p {
+  color: #fff;
+}
+
+.jobhuntdiv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica;
+  background-color: rgb(255, 255, 255, 0.5);
+}
+
+.hamburgericon {
+  display: none;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+.h1 {
+  color: #fff;
+}
+
+.target-icon {
+  height: 30px;
+}
+
+.target-iconi {
+  color: #fff;
+}
+
+nav {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  padding-block: 20px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.pink-div {
+  background-color: #fb236a;
+  display: flex;
+  align-items: center;
+  padding-inline: 15px;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 3px;
+}
+
+.pink-div p {
+  color: #fff;
+}
+
+.jobhuntdiv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+  align-items: center;
+}
+
+.thebraves {
+  width: 85%;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.theus {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+p {
+  color: #8d9b9e;
+  font-size: 14px;
+}
+
+.plus {
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.keyandregister {
+  display: flex;
+  align-items: center;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+}
+
+.keyandlogin {
+  display: flex;
+  gap: 15px;
+}
+
+.keyandregister i {
+  border-color: #bcc5c6;
+}
+
+.loginsvg {
+  height: 15px;
+}
+
+.key {
+  height: 15px;
+}
+
+.div-with-background-image {
+  background-image: url("../src/home-bg.jpg");
+}
+
+.div-with-background-color {
+  height: 60vh;
+  background: rgb(40, 48, 102, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: #fff;
+}
+
+.jobs {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 600;
+}
+
+span {
+  border-bottom: 1px solid #fff;
+}
+
+.div-with-background-color p {
+  color: white;
+  margin-top: 20px;
+}
+
+.display-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 32%;
+  padding: 30px;
+}
+
+.display {
+  display: flex;
+  align-items: center;
+  color: #8b91dd;
+  justify-content: center;
+  padding: 20px;
+  padding-block: 40px;
+  border-bottom: 1px solid #f1f3f9;
+  cursor: pointer;
+}
+
+.searchicon {
+  color: #fb236a;
+  height: 25px;
+}
+
+.background-for-the-search-and-input {
+  padding: 1px;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #d4d9dd;
+  background-color: #f9fafa;
+  /* width: 90%; */
+  border-radius: 10px;
+  align-items: center;
+}
+
+.background-for-the-search-and-input input {
+  width: 90%;
+  padding: 13px;
+  border: none;
+  outline: none;
+  background-color: #f9fafa;
+}
+
+.middle {
+  color: black;
+}
+
+p {
+  color: #8d9b9e;
+  font-size: 14px;
+}
+
+.lasthovershit:hover {
+  color: #4ca2ff;
+}
+
+.normalsquarediv {
+  height: 20px;
+  color: #ebecf2;
+}
+
+.fulltimediv p {
+  color: #9297df;
+}
+
+.fulltimediv2 p {
+  color: #9297df;
+}
+
+.fulltimediv3 p {
+  color: #9297df;
+}
+
+.fulltimediv4 p {
+  color: #9297df;
+}
+
+ol {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+ol li {
+  margin-top: 8px;
+  color: #bebebe;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.seconddiv {
+  border-left: 1px solid #f1f3f9;
+  width: 65%;
+}
+
+.showingdiv {
+  justify-content: space-between;
+  display: flex;
+  border-bottom: 1px solid #f1f3f9;
+  padding: 30px;
+  align-items: center;
+}
+
+.showingtext {
+  font-size: 15px;
+  font-weight: 600;
+  color: #3b4249;
+}
+
+.smallimage {
+  height: 80px;
+}
+
+.allicon {
+  color: #fb2a6f;
+  height: 20px;
+}
+
+.stylefortheseconddiv {
+  display: flex;
+  justify-content: center;
+  padding-inline: 50px;
+  gap: 20px;
+}
+
+.new {
+  color: #3e3e3e;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.staricons {
+  color: #3e3e3e;
+}
+
+.styling {
+  border-color: #6033cc;
+}
+
+.coloredpins {
+  color: #fb236a;
+  margin-bottom: 10px;
+}
+
+.displaying {
+  display: flex;
+  align-items: center;
+}
+
+.coloredpin {
+  color: #3e3e3e;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color: #24324a;
+  display: flex;
+  justify-content: space-between;
+  padding: 75px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.secondcolor {
+  color: #5a5a5a;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.hr {
+  border-bottom: 2px solid #f3f5f5;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+span {
+  height: 10px;
+}
+
+.appleandgoogleplaydiv {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.alink:hover {
+  color: white;
+}
+
+.alinks:hover {
+  color: #fff;
+}
+
+.alinks {
+  margin-top: 5px;
+}
+
+.alink {
+  margin-top: 20px;
+}
+
+.gap {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 70px;
+}
+
+.frequently {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.thejobhuntdiv {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.lastdiv {
+  background-color: #1d293e;
+  padding: 40px;
+}
+
+.lastdiv p {
+  text-align: center;
+  color: #8291aa;
+}
+
+.hamburgericon {
+  display: none;
+  color: #829193;
+}
+
+.display:hover {
+  border: transparent;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
+}
