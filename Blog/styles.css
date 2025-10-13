@@ -1,0 +1,254 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 25px;
+  color: black;
+}
+
+.target-icon {
+  height: 30px;
+}
+
+.target-iconi {
+  color: #fff;
+}
+
+nav {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  padding-block: 20px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.pink-div {
+  background-color: #fb236a;
+  display: flex;
+  align-items: center;
+  padding-inline: 15px;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 3px;
+}
+
+.pink-div p {
+  color: #fff;
+}
+
+.jobhuntdiv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+p {
+  color: #8d9b9e;
+  font-size: 14px;
+}
+
+.plus {
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.keyandregister {
+  display: flex;
+  align-items: center;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+}
+
+.keyandlogin {
+  display: flex;
+  gap: 15px;
+}
+
+.keyandregister i {
+  border-color: #bcc5c6;
+}
+
+.loginsvg {
+  height: 25px;
+}
+
+.key {
+  height: 25px;
+}
+
+.div-with-background-image {
+  background-image: url("../src/mslider3.jpg ");
+}
+
+.div-with-background-color {
+  height: 60vh;
+  background: rgb(40, 48, 102, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: #fff;
+}
+
+.jobs {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 600;
+}
+
+span {
+  border-bottom: 1px solid #fff;
+  align-self: center;
+}
+
+.div-with-background-color p {
+  color: white;
+  margin-top: 20px;
+}
+
+.footer {
+  margin-top: 120px;
+  background-color: #24324a;
+  display: flex;
+  justify-content: space-between;
+  padding: 75px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.secondcolor {
+  color: #5a5a5a;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.hr {
+  border-bottom: 2px solid #f3f5f5;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+span {
+  height: 10px;
+}
+
+.appleandgoogleplaydiv {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.alink:hover {
+  color: white;
+}
+
+.alinks:hover {
+  color: #fff;
+}
+
+.alinks {
+  margin-top: 5px;
+}
+
+.alink {
+  margin-top: 20px;
+}
+
+.gap {
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+}
+
+.frequently {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.thejobhuntdiv {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.lastdiv {
+  background-color: #1d293e;
+  padding: 40px;
+}
+
+.lastdiv p {
+  text-align: center;
+  color: #8291aa;
+}
+
+.hamburgericon {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .hamburgericon {
+    display: block;
+  }
+
+  ul {
+    display: none;
+  }
+
+  .keyandregister p {
+    display: none;
+  }
+
+  .login p {
+    display: none;
+  }
+
+  .pink-div {
+    display: none;
+  }
+
+  .key,
+  .loginsvg {
+    height: 25px;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .h1 {
+    color: #fff;
+  }
+
+  .gap {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .appleandgoogleplaydiv img {
+    height: 65px;
+    width: 35%;
+  }
+}
