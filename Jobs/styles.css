@@ -469,6 +469,7 @@ li p {
 
 .stylefortheseconddiv {
   display: flex;
+  direction: column;
   justify-content: center;
   padding-inline: 50px;
   gap: 20px;

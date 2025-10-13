@@ -1,0 +1,619 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica;
+  background-color: rgb(255, 255, 255, 0.5);
+}
+
+.hamburgericon {
+  display: none;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+.h1 {
+  color: #fff;
+}
+
+.target-icon {
+  height: 30px;
+}
+
+.target-iconi {
+  color: #fff;
+}
+
+nav {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  padding-block: 20px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.pink-div {
+  background-color: #fb236a;
+  display: flex;
+  align-items: center;
+  padding-inline: 15px;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 3px;
+}
+
+.pink-div p {
+  color: #fff;
+}
+
+.jobhuntdiv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+  align-items: center;
+}
+
+.ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.theus {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+p {
+  color: #8d9b9e;
+  font-size: 14px;
+}
+
+.plus {
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.keyandregister {
+  display: flex;
+  align-items: center;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+}
+
+.keyandlogin {
+  display: flex;
+  gap: 15px;
+}
+
+.keyandregister i {
+  border-color: #bcc5c6;
+}
+
+.loginsvg {
+  height: 15px;
+}
+
+.key {
+  height: 15px;
+}
+
+.div-with-background-image {
+  background-image: url("../src/home-bg.jpg");
+}
+
+.div-with-background-color {
+  height: 60vh;
+  background: rgb(40, 48, 102, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: #fff;
+}
+
+.jobs {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 600;
+}
+
+span {
+  border-bottom: 1px solid #fff;
+  align-self: center;
+}
+
+.div-with-background-color p {
+  color: white;
+  margin-top: 20px;
+}
+
+.display-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 32%;
+  padding: 30px;
+}
+
+.seconddiv {
+  border-left: 1px solid #f1f3f9;
+  width: 65%;
+}
+
+.showingdiv {
+  justify-content: space-between;
+  display: flex;
+  border-bottom: 1px solid #f1f3f9;
+  padding: 30px;
+  align-items: center;
+}
+
+.showingtext {
+  font-size: 15px;
+  font-weight: 600;
+  color: #3b4249;
+}
+
+.smallimage {
+  height: 60px;
+}
+
+.allicon {
+  color: #fb2a6f;
+  height: 20px;
+}
+
+.stylefortheseconddiv {
+  display: flex;
+  justify-content: center;
+  padding-inline: 50px;
+  gap: 20px;
+}
+
+.new {
+  color: #384047;
+  font-weight: 700;
+}
+
+.styling {
+  border-color: #6033cc;
+}
+
+.footer {
+  background-color: #24324a;
+  display: flex;
+  justify-content: space-between;
+  padding: 75px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.secondcolor {
+  color: #5a5a5a;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.hr {
+  border-bottom: 2px solid #f3f5f5;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+span {
+  height: 10px;
+}
+
+.appleandgoogleplaydiv {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.alink:hover {
+  color: white;
+}
+
+.alinks:hover {
+  color: #fff;
+}
+
+.alinks {
+  margin-top: 5px;
+}
+
+.alink {
+  margin-top: 20px;
+}
+
+.gap {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 70px;
+}
+
+.frequently {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.thejobhuntdiv {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.lastdiv {
+  background-color: #1d293e;
+  padding: 40px;
+}
+
+.lastdiv p {
+  text-align: center;
+  color: #8291aa;
+}
+
+.hamburgericon {
+  display: none;
+  color: #829193;
+}
+
+select {
+  background-color: #f4f5fa;
+  padding: 10px;
+  border: none;
+  outline: none;
+  color: #8e8e8f;
+  padding-inline: 20px;
+}
+
+.middle {
+  color: black;
+}
+
+.filterdiv {
+  background-color: #fb236a;
+  display: flex;
+  /* justify-content: center; */
+  padding-inline: 25px;
+  /* width: 30%; */
+  border-radius: 5px;
+  display: none;
+  cursor: pointer;
+}
+
+.filterdiv:hover {
+  background-color: #262626;
+}
+
+.filterdiv p {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.filter {
+  color: #fff;
+  height: 15px;
+}
+
+.styleunder {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.background-for-the-search-and-input {
+  padding: 1px;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #d4d9dd;
+  background-color: #f9fafa;
+  /* width: 90%; */
+  border-radius: 10px;
+  align-items: center;
+}
+
+.background-for-the-search-and-input input {
+  width: 90%;
+  padding: 13px;
+  border: none;
+  outline: none;
+  background-color: #f9fafa;
+}
+
+.searchicon {
+  height: 25px;
+  color: #fb236a;
+}
+
+.squareicon {
+  height: 30px;
+  color: #e7e9f0;
+}
+
+li {
+  list-style: none;
+  color: #8f8f8f;
+  display: flex;
+  align-items: center;
+}
+
+ol li {
+  margin-top: 10px;
+  display: flex;
+  align-items: baseline;
+}
+
+.display-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.specialism {
+  overflow-y: scroll;
+  height: 300px;
+}
+
+.skillsdiv {
+  overflow-y: scroll;
+  height: 350px;
+}
+
+.skills {
+  margin-block: 10px;
+  color: black;
+  font-size: 15px;
+}
+
+.displayflexoftheli {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.experienceside {
+  margin-block: 5px;
+  color: black;
+}
+
+.divfortheimageandthetex img {
+  height: 100px;
+  border-radius: 5px;
+}
+
+.thefirstdivinthesecondflex {
+  display: flex;
+  padding-block: 40px;
+  justify-content: space-between;
+  cursor: pointer;
+  border-left: 1px solid #f1f3f9;
+  padding-inline: 30px;
+}
+
+.thefirstdivinthesecondflex:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.thefirstdivinthesecondflexi {
+  display: flex;
+  padding-block: 40px;
+  justify-content: space-between;
+  cursor: pointer;
+  border-left: 1px solid #f1f3f9;
+  padding-inline: 30px;
+}
+
+.thefirstdivinthesecondflexi:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.theseconrow {
+  width: 70%;
+  /* padding-inline: 20px; */
+  border-left: 1px solid #f1f3f9;
+  /* margin-top: 25px; */
+}
+
+.divfortheimageandthetext {
+  display: flex;
+  align-items: center;
+}
+
+.divfortheimageandthetext .searchicon {
+  color: #909090;
+}
+
+.divfortheimageandthetex {
+  display: flex;
+  gap: 30px;
+}
+
+.james {
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.painter {
+  color: #a1a6e3;
+}
+
+.viewresultdiv {
+  color: #a1a6e3;
+}
+
+.widthandheight {
+  padding-block: 10px;
+  padding-inline: 10px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  border: 2px solid #8b91dd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.widthandheight:hover {
+  background-color: #8b91dd;
+}
+
+.widthandheight:hover > .viewresumediv,
+.widthandheight:hover > svg {
+  color: #fff;
+}
+
+.widthandheight svg {
+  height: 20px;
+  color: #8b91dd;
+}
+
+.james,
+.painter,
+.divfortheimageandthetext {
+  margin-bottom: 10px;
+}
+
+.viewresumediv {
+  color: #8b91dd;
+  align-self: center;
+}
+
+.filterdiv {
+  background-color: #fb236a;
+  display: flex;
+  /* width: 13%; */
+  align-items: center;
+  border-radius: 5px;
+  margin-top: 20px;
+  justify-self: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.filterdiv:hover {
+  background-color: #262626;
+}
+
+.filterdiv p {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.filter {
+  color: #fff;
+  height: 30px;
+}
+
+@media screen and (max-width: 900px) {
+  .hamburgericon {
+    display: block;
+  }
+
+  ul {
+    display: none;
+  }
+
+  .pink-div {
+    display: none;
+  }
+
+  .keyandregister p {
+    display: none;
+  }
+
+  .login p {
+    display: none;
+  }
+
+  .key,
+  .loginsvg {
+    height: 20px;
+  }
+
+  .display-flex {
+    display: none;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .gap {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .theseconrow {
+    width: 100%;
+    border-left: none;
+    justify-content: center;
+  }
+
+  .divfortheimageandthetex {
+    flex-direction: column;
+  }
+
+  .thefirstdivinthesecondflex {
+    flex-direction: column;
+  }
+
+  .thefirstdivinthesecondflexi {
+    display: none;
+  }
+
+  .painter,
+  .james {
+    text-align: center;
+  }
+
+  .divfortheimageandthetext {
+    justify-self: center;
+  }
+
+  .divfortheimageandthetex img {
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+  }
+
+  .filterdiv {
+    display: block;
+    display: flex;
+    padding-block: 7px;
+    /* padding-inline: 40px; */
+    width: 20%;
+  }
+
+  .appleandgoogleplaydiv img {
+    height: 65px;
+    width: 35%;
+  }
+}
