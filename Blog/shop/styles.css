@@ -1,0 +1,338 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica;
+  /* background-color: rgb(255, 255, 255, 0.5); */
+}
+
+h1 {
+  font-size: 25px;
+  color: black;
+}
+
+.target-icon {
+  height: 30px;
+}
+
+.target-iconi {
+  color: #fff;
+}
+
+nav {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  padding-block: 20px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  padding-inline: 60px;
+}
+
+.pink-div {
+  background-color: #fb236a;
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  width: 25%;
+  /* padding-inline: 50px; */
+  justify-content: center;
+  gap: 10px;
+  border-radius: 3px;
+}
+
+.pink-div p {
+  color: #fff;
+}
+
+.displayflexforthedivin {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.jobhuntdiv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hamburgericon {
+  display: none;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  width: 40%;
+}
+
+p {
+  color: #8d9b9e;
+  font-size: 14px;
+}
+
+.plus {
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.keyandregister {
+  display: flex;
+  align-items: center;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+}
+
+.keyandlogin {
+  display: flex;
+  gap: 15px;
+}
+
+.keyandregister i {
+  border-color: #bcc5c6;
+}
+
+.loginsvg {
+  height: 25px;
+}
+
+.key {
+  height: 25px;
+}
+
+.secondivdisplayshit {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 40px;
+}
+
+.blogdiv {
+  margin-top: 75px;
+  padding-block: 60px;
+  background-color: #f6f9fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-inline: 60px;
+}
+
+.blogdiv p {
+  color: #8d9b9e;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.blogdiv h1 {
+  color: #394148;
+  font-size: ;
+}
+
+.wikipediaimage {
+  color: #fff;
+}
+
+.border-radius-for-the-div {
+  border: 2px solid #adb5bd;
+  background-color: #adb5bd;
+  border-radius: 60%;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.thebigcontainers {
+  background-color: #eeeeee;
+  padding-block: 90px;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  /* background-color: #f6f9fa; */
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.thebigcontainers:hover > p {
+  /* color: #fb236a; */
+  transform: translateX(30px);
+  /* transform: scaleY(1.5); */
+}
+
+.thebigcontainers p {
+  transform: scaleY(1.5);
+  font-size: 80px;
+  color: #969696;
+  /* transform: scaleX(1.5); */
+}
+
+h2 {
+  color: #384047;
+  cursor: pointer;
+}
+
+h2:hover {
+  color: #fb236a;
+}
+
+.thebigcontainer:hover > .wikipediaimage {
+  background-color: #fb236a;
+}
+
+.thebigcontainer:hover > .border-radius-for-the-div {
+  background-color: #fb236a;
+  border-color: #fb236a;
+}
+
+.thebigcontainer {
+  padding-block: 130px;
+  width: 93%;
+  display: flex;
+  justify-content: center;
+  background-color: #f6f9fa;
+  margin-top: 50px;
+}
+
+.divunderthewikishit {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-block: 10px;
+}
+
+.divunderthewikishit img {
+  height: 40px;
+  border-radius: 50%;
+}
+
+.divunderthewikishit p {
+  color: #ababab;
+}
+
+.divunderthewikishit svg {
+  color: #ababab;
+  height: 20px;
+}
+
+.first-div-in-the-stuff {
+  width: 80%;
+  border-right: 1px solid #f1f3f9;
+}
+
+.first-div-in-the-stuff p {
+  color: #b2b2b2;
+  margin-block: 10px;
+}
+
+.first-div-in-the-stuff h2 {
+  margin-block: 10px;
+}
+
+.thirddiv {
+  display: flex;
+  padding-inline: 60px;
+  justify-content: center;
+  gap: 20px;
+}
+
+.border {
+  border: #fb236a 2px solid;
+  /* padding: 10px; */
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.border p {
+  color: #fb236a;
+}
+
+.border:hover {
+  background-color: #fb236a;
+}
+
+.border:hover > p {
+  color: #fff;
+}
+
+.hello-world {
+  font-size: 18px;
+  color: black;
+}
+
+.rowshit {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.admin {
+  cursor: pointer;
+}
+
+.admin:hover {
+  color: blue;
+}
+
+.bordertopandbottom {
+  border-bottom: 2px solid#eaeeee;
+  /* border-top: 1px solid#eaeeee; */
+  margin-block: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  /* border-collapse: collapse; */
+}
+
+.margin-block {
+  margin-top: 80px;
+}
+
+.searchicon {
+  height: 30px;
+  color: #fb236a;
+}
+
+.inputdiv2 {
+  display: flex;
+  align-items: center;
+  width: 98%;
+  border: 2px solid #d5dade;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.inputdiv2:hover {
+  border-color: #8d9b9e;
+}
+
+.inputdiv2 input {
+  width: 80%;
+  border: none;
+  outline: none;
+  color: #979da3;
+  padding: 8px;
+}
+
+.divforthesecondside {
+  width: 22%;
+  padding: 20px;
+}
