@@ -46,13 +46,20 @@ nav {
   display: flex;
   align-items: center;
   padding-inline: 15px;
+  padding-block: 7px;
   justify-content: center;
   gap: 10px;
   border-radius: 3px;
+  cursor: pointer;
 }
 
 .pink-div p {
   color: #fff;
+  font-size: 14px;
+}
+
+.pink-div:hover {
+  background-color: #5a5a5a;
 }
 
 .jobhuntdiv {
@@ -64,7 +71,7 @@ nav {
 ul {
   display: flex;
   list-style-type: none;
-  gap: 30px;
+  gap: 35px;
   align-items: center;
 }
 
@@ -99,7 +106,7 @@ h1 {
   color: #fff;
 }
 
-nav {
+/* nav {
   background-color: #fff;
   display: flex;
   justify-content: space-evenly;
@@ -109,9 +116,22 @@ nav {
   z-index: 1;
   padding-block: 20px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+} */
+
+nav {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  /* gap: 90px; */
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  padding-block: 20px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
 }
 
-.pink-div {
+/* .pink-div {
   background-color: #fb236a;
   display: flex;
   align-items: center;
@@ -119,7 +139,7 @@ nav {
   justify-content: center;
   gap: 10px;
   border-radius: 3px;
-}
+} */
 
 .pink-div p {
   color: #fff;
@@ -131,11 +151,8 @@ nav {
   gap: 10px;
 }
 
-ul {
-  display: flex;
-  list-style-type: none;
-  gap: 30px;
-  align-items: center;
+ul p {
+  font-size: 14px;
 }
 
 .thebraves {
@@ -174,7 +191,8 @@ p {
 
 .keyandlogin {
   display: flex;
-  gap: 15px;
+  justify-content: space-between;
+  gap: 40px;
 }
 
 .keyandregister i {
@@ -182,11 +200,11 @@ p {
 }
 
 .loginsvg {
-  height: 15px;
+  height: 25px;
 }
 
 .key {
-  height: 15px;
+  height: 25px;
 }
 
 .div-with-background-image {
@@ -236,10 +254,10 @@ span {
   padding-block: 40px;
   border-bottom: 1px solid #f1f3f9;
   cursor: pointer;
+  /* margin-top: 100px; */
 }
 
 .filterdiv {
-  margin-top: 30px;
   background-color: #fb236a;
   display: flex;
   /* justify-content: center; */
@@ -249,6 +267,7 @@ span {
   gap: 3px;
   display: none;
   cursor: pointer;
+  margin-left: 70px;
 }
 
 .filterdiv:hover {
@@ -299,6 +318,10 @@ p {
   font-size: 14px;
 }
 
+.lasthovershit {
+  display: flex;
+}
+
 .lasthovershit:hover {
   color: #4ca2ff;
 }
@@ -328,6 +351,9 @@ p {
 ol {
   list-style-type: none;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 ol li {
@@ -498,6 +524,14 @@ span {
     /* padding-inline: 40px; */
   }
 
+  nav {
+    gap: 120px;
+  }
+
+  .hamburgericon {
+    display: block;
+  }
+
   ul {
     display: none;
   }
@@ -535,11 +569,6 @@ span {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
-  }
-
-  .gap {
-    /* flex-direction: column; */
-    /* gap: 0; */
   }
 
   .appleandgoogleplaydiv img {

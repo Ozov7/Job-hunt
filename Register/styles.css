@@ -1,12 +1,21 @@
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica;
+  background-color: rgb(255, 255, 255, 0.5);
+  filter: grayscale(10px);
 }
 
 h1 {
   font-size: 25px;
-  color: black;
+}
+
+.h1 {
+  color: #fff;
 }
 
 .target-icon {
@@ -27,38 +36,28 @@ nav {
   z-index: 1;
   padding-block: 20px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
-}
-
-nav {
-  background-color: #fff;
-  display: flex;
-  justify-content: space-evenly;
-  /* gap: 90px; */
-  width: 100%;
-  position: fixed;
-  top: 0;
-  z-index: 1;
-  padding-block: 20px;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 
 .pink-div {
   background-color: #fb236a;
   display: flex;
   align-items: center;
-  padding-inline: 15px;
+  padding-block: 10px;
+  padding-inline: 30px;
   justify-content: center;
-  gap: 10px;
+  gap: 7px;
   border-radius: 3px;
   cursor: pointer;
 }
 
 .pink-div p {
   color: #fff;
+  font-size: 14px;
 }
 
 .pink-div:hover {
-  background-color: #8d9b9e;
+  background-color: #5a5a5a;
 }
 
 .jobhuntdiv {
@@ -71,6 +70,11 @@ ul {
   display: flex;
   align-items: center;
   gap: 30px;
+  cursor: pointer;
+}
+
+ul p {
+  font-size: 14px;
 }
 
 p {
@@ -80,29 +84,25 @@ p {
 
 .plus {
   color: white;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: lighter;
-}
-
-.footerjobhunter {
-  color: #fff;
 }
 
 .keyandregister {
   display: flex;
   align-items: center;
-  cursor: pointer;
+  justify-content: space-between;
 }
 
 .login {
   display: flex;
   align-items: center;
-  cursor: pointer;
 }
 
 .keyandlogin {
   display: flex;
-  gap: 15px;
+  justify-content: space-between;
+  gap: 40px;
 }
 
 .keyandregister i {
@@ -117,39 +117,92 @@ p {
   height: 25px;
 }
 
-.div-with-background-image {
-  background-image: url("../src/mslider3.jpg ");
+.hamburgericon {
+  display: none;
 }
 
 .div-with-background-color {
-  height: 60vh;
-  background: rgb(40, 48, 102, 0.8);
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  height: 30vh;
+  margin-top: 70px;
+  background: #f6f9fa;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  padding-inline: 100px;
   text-align: center;
   align-items: center;
   color: #fff;
 }
 
 .jobs {
+  font-size: 40px;
+  color: #384047;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #a9b4b6;
+}
+
+.homeandpostajob {
+  color: #9da9ac;
+  font-size: 18px;
+}
+
+.register {
+  color: #40484a;
+  text-align: center;
   font-size: 30px;
-  color: #fff;
-  font-weight: 600;
 }
 
-span {
-  border-bottom: 1px solid #fff;
-  align-self: center;
+.login {
+  color: #40484a;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
-.div-with-background-color p {
-  color: white;
-  margin-top: 20px;
+.registerdiv {
+  border: 2px solid #edeff0;
+  background-color: #edeff0;
+  padding: 40px;
+  width: 50%;
+}
+
+.logindiv {
+  border: 2px solid #eeeff0;
+  padding: 40px;
+  width: 50%;
+  justify-content: center;
+}
+
+.biggerdiv {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  border-radius: 10px;
+}
+
+.theotherdiv {
+  display: flex;
+  margin: 0 auto;
+}
+
+.lastdivs {
+  padding: 30px;
+  padding-bottom: 60px;
+  border: 2px solid #eeeff0;
+}
+
+.lastdivs p {
+  color: #a1a8aa;
+  font-size: 17px;
+  /* font-weight: 600; */
 }
 
 .footer {
-  margin-top: 120px;
   background-color: #24324a;
   display: flex;
   justify-content: space-between;
@@ -229,6 +282,7 @@ span {
 
 .hamburgericon {
   display: none;
+  color: #829193;
 }
 
 @media screen and (max-width: 900px) {
@@ -240,6 +294,10 @@ span {
     display: none;
   }
 
+  .pink-div {
+    display: none;
+  }
+
   .keyandregister p {
     display: none;
   }
@@ -248,31 +306,35 @@ span {
     display: none;
   }
 
-  .pink-div {
-    display: none;
+  nav {
+    justify-content: space-evenly;
+    padding-inline: 50px;
   }
 
-  .key,
-  .loginsvg {
-    height: 25px;
+  .jobs {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .div-with-background-color {
+    padding-inline: 50px;
+  }
+
+  .biggerdiv {
+    width: 70%;
+  }
+
+  .registerdiv {
+    /* padding: 0; */
   }
 
   .footer {
-    flex-direction: column;
-    gap: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
-  .h1 {
-    color: #fff;
-  }
-
-  .gap {
-    flex-direction: column;
-    gap: 0;
-  }
-
-  .appleandgoogleplaydiv img {
+  .appleandgoogleplaydiv {
     height: 65px;
-    width: 35%;
+    width: 250px;
   }
 }

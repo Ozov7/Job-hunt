@@ -39,7 +39,7 @@ nav {
   background-color: #fb236a;
   display: flex;
   align-items: center;
-  padding: 0px;
+  padding: 3px;
   width: 25%;
   /* padding-inline: 50px; */
   justify-content: center;
@@ -73,8 +73,13 @@ ul {
   display: flex;
   align-items: center;
   gap: 10px;
-  justify-content: center;
+  justify-content: space-between;
   width: 40%;
+}
+
+ul p {
+  font-size: 15px;
+  font-weight: 500;
 }
 
 p {
@@ -108,17 +113,17 @@ p {
 }
 
 .loginsvg {
-  height: 25px;
+  height: 20px;
 }
 
 .key {
-  height: 25px;
+  height: 20px;
 }
 
 .secondivdisplayshit {
   display: flex;
   width: 100%;
-  justify-content: center;
+  justify-content: space-between;
   gap: 40px;
 }
 
@@ -159,7 +164,7 @@ p {
 .thebigcontainers {
   background-color: #eeeeee;
   padding-block: 90px;
-  width: 95%;
+  width: 96%;
   display: flex;
   justify-content: center;
   /* background-color: #f6f9fa; */
@@ -200,7 +205,7 @@ h2:hover {
 
 .thebigcontainer {
   padding-block: 130px;
-  width: 93%;
+  width: 96%;
   display: flex;
   justify-content: center;
   background-color: #f6f9fa;
@@ -229,7 +234,7 @@ h2:hover {
 }
 
 .first-div-in-the-stuff {
-  width: 80%;
+  width: 75%;
   border-right: 1px solid #f1f3f9;
 }
 
@@ -284,6 +289,10 @@ h2:hover {
   cursor: pointer;
 }
 
+.rowshit h2 {
+  font-size: 10px;
+}
+
 .admin {
   cursor: pointer;
 }
@@ -299,6 +308,10 @@ h2:hover {
   padding-top: 10px;
   padding-bottom: 20px;
   /* border-collapse: collapse; */
+}
+
+.bordertopandbottom h2 {
+  margin-block: 20px;
 }
 
 .margin-block {
@@ -333,6 +346,243 @@ h2:hover {
 }
 
 .divforthesecondside {
-  width: 22%;
+  width: 25%;
   padding: 20px;
+}
+
+.displayflex {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.august9 {
+  font-size: 15px;
+}
+
+.thecategorydiv {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.thecategorydiv p {
+  font-size: 13px;
+  margin-bottom: 13px;
+  cursor: pointer;
+}
+
+.thecategorydiv p:hover {
+  color: #fb236a;
+}
+
+.displayflex img {
+  height: 80px;
+  border-radius: 10px;
+}
+
+.attract {
+  color: #6c7277;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.attract:hover {
+  color: #fb236a;
+}
+
+h3 {
+  color: #626d70;
+  margin-block: 20px;
+}
+
+.displayflexwithgap {
+  display: flex;
+  gap: 10px;
+  /* padding: 10px; */
+  /* justify-content: space-between; */
+}
+
+.adwords {
+  border: 3px solid #eff1f2;
+  padding: 10px;
+  /* padding-inline: 15px; */
+  border-radius: 5px;
+}
+
+.footer {
+  /* margin-top: 120px; */
+  background-color: #24324a;
+  display: flex;
+  justify-content: space-between;
+  /* padding: 60px; */
+  padding-inline: 60px;
+  padding-block: 80px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.secondcolor {
+  color: #5a5a5a;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.hr {
+  border-bottom: 2px solid #f3f5f5;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+span {
+  height: 10px;
+}
+
+.appleandgoogleplaydiv {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.appleandgoogleplaydiv img {
+  height: 70px;
+  width: 250px;
+  cursor: pointer;
+}
+
+.alink:hover {
+  color: white;
+}
+
+.alinks:hover {
+  color: #fff;
+}
+
+.alinks {
+  margin-top: 5px;
+}
+
+.alink {
+  margin-top: 20px;
+}
+
+.gap {
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+}
+
+.frequently {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.thejobhuntdiv {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.lastdiv {
+  background-color: #1d293e;
+  padding: 40px;
+}
+
+.lastdiv p {
+  text-align: center;
+  color: #8291aa;
+  font-size: 17px;
+}
+
+.hamburgericon {
+  display: none;
+}
+
+.footer .h1 {
+  color: #fff;
+}
+
+.collins p {
+  color: #7d899d;
+  font-size: 15.5px;
+}
+
+@media screen and (max-width: 1100px) {
+  ul {
+    display: none;
+  }
+
+  .pink-div {
+    display: none;
+  }
+
+  .keyandregister p {
+    display: none;
+  }
+
+  .hamburgericon {
+    display: block;
+  }
+
+  .login p {
+    display: none;
+  }
+
+  .secondivdisplayshit {
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .thirddiv {
+    display: block;
+  }
+
+  .first-div-in-the-stuff {
+    width: 100%;
+  }
+
+  br {
+    display: none;
+  }
+
+  .thirddiv {
+    margin: 0 auto;
+    align-self: center;
+  }
+
+  body {
+    justify-content: center;
+  }
+
+  .divforthesecondside {
+    width: 100%;
+    gap: 20px;
+  }
+
+  .adwords {
+    /* width: 50%; */
+    /* padding-inline: 60px; */
+    /* padding-inline: 10px; */
+    display: inline-block;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .adwordsi {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+  }
+
+  nav {
+    justify-content: space-between;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }

@@ -103,6 +103,7 @@ p {
 .keyandlogin {
   display: flex;
   gap: 15px;
+  cursor: pointer;
 }
 
 .keyandregister i {
@@ -496,6 +497,11 @@ a {
   color: #fff;
 }
 
+.pink-div:hover {
+  cursor: pointer;
+  background-color: #384047;
+}
+
 .secondcolor {
   color: #5a5a5a;
   margin-top: 20px;
@@ -612,7 +618,7 @@ select {
   align-items: center;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 601px) and (max-width: 900px) {
   .hamburgericon {
     display: block;
     cursor: pointer;
@@ -711,6 +717,126 @@ select {
   }
 
   .styleunder {
+    align-items: start;
+    margin-block: 15px;
+  }
+
+  .smallimage {
+    height: 140px;
+  }
+
+  .display {
+    padding-block: 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hamburgericon {
+    display: block;
+    cursor: pointer;
+  }
+
+  nav {
+    justify-content: space-between;
+    padding-inline: 40px;
+  }
+
+  ul {
+    display: none;
+  }
+
+  .keyandregister p {
+    display: none;
+  }
+
+  .login p {
+    display: none;
+  }
+
+  .pink-div {
+    display: none;
+  }
+
+  .key {
+    height: 30px;
+  }
+
+  .loginsvg {
+    height: 30px;
+  }
+
+  .display-flex {
+    display: none;
+  }
+
+  .seconddiv {
+    border-left: none;
+    width: 80%;
+  }
+
+  .showingdiv {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+
+  .gap {
+    /* flex-direction: column; */
+    /* gap: 0; */
+  }
+
+  .appleandgoogleplaydiv img {
+    height: 65px;
+    width: 35%;
+  }
+
+  .divafterthehardshit p {
+    font-size: 15px;
+    padding-inline: 90px;
+  }
+
+  .increasedsizedofp {
+    font-size: 25px;
+  }
+
+  .secondinthediv {
+    font-size: 13px;
+    margin-top: 10px;
+  }
+
+  .thebetterdivi {
+    display: none;
+  }
+
+  .thecomplexdiv {
+    flex-direction: column;
+  }
+
+  .thedivfortheimage {
+    width: 100%;
+  }
+
+  .filterdiv {
+    display: block;
+    display: flex;
+    padding-block: 7px;
+    /* padding-inline: 40px; */
+  }
+
+  .styles {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .styleunder {
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
     align-items: start;
     margin-block: 15px;
   }

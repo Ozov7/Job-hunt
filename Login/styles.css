@@ -1,0 +1,385 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica;
+  background-color: rgb(255, 255, 255, 0.5);
+  filter: grayscale(10px);
+}
+
+h1 {
+  font-size: 25px;
+}
+
+.h1 {
+  color: #fff;
+}
+
+.target-icon {
+  height: 30px;
+}
+
+.target-iconi {
+  color: #fff;
+}
+
+nav {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  padding-block: 20px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.pink-div {
+  background-color: #fb236a;
+  display: flex;
+  align-items: center;
+  padding-block: 10px;
+  padding-inline: 30px;
+  justify-content: center;
+  gap: 7px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.pink-div p {
+  color: #fff;
+  font-size: 14px;
+}
+
+.pink-div:hover {
+  background-color: #5a5a5a;
+}
+
+.jobhuntdiv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  cursor: pointer;
+}
+
+ul p {
+  font-size: 14px;
+}
+
+p {
+  color: #8d9b9e;
+  font-size: 14px;
+}
+
+.plus {
+  color: white;
+  font-size: 10px;
+  font-weight: lighter;
+}
+
+.keyandregister {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+}
+
+.keyandlogin {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.keyandregister i {
+  border-color: #bcc5c6;
+}
+
+.loginsvg {
+  height: 25px;
+}
+
+.key {
+  height: 25px;
+}
+
+.hamburgericon {
+  display: none;
+}
+
+.div-with-background-color {
+  display: flex;
+  height: 30vh;
+  margin-top: 70px;
+  background: #f6f9fa;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  padding-inline: 100px;
+  text-align: center;
+  align-items: center;
+  color: #fff;
+}
+
+.jobs {
+  font-size: 40px;
+  color: #384047;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #a9b4b6;
+}
+
+.homeandpostajob {
+  color: #9da9ac;
+  font-size: 18px;
+}
+
+.register {
+  color: #40484a;
+  text-align: center;
+  font-size: 30px;
+}
+
+.login {
+  color: #40484a;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.registerdiv {
+  border: 3px solid #edeff0;
+  background-color: #edeff0;
+  padding: 40px;
+  width: 50%;
+  border-top-left-radius: 5px;
+}
+
+.logindiv {
+  border: 3px solid #eeeff0;
+  padding: 40px;
+  width: 50%;
+  justify-content: center;
+}
+
+.biggerdiv {
+  width: 45%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  border-radius: 10px;
+}
+
+.theotherdiv {
+  display: flex;
+  margin: 0 auto;
+}
+
+.lastdivs {
+  padding: 30px;
+  padding-bottom: 60px;
+  border: 3px solid #eeeff0;
+}
+
+.lastdivs p {
+  color: #a1a8aa;
+  font-size: 17px;
+  /* font-weight: 600; */
+}
+
+.footer {
+  background-color: #24324a;
+  display: flex;
+  justify-content: space-between;
+  padding: 75px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.secondcolor {
+  color: #5a5a5a;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.hr {
+  border-bottom: 3px solid #f3f5f5;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+span {
+  height: 10px;
+}
+
+.appleandgoogleplaydiv {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.alink:hover {
+  color: white;
+}
+
+.alinks:hover {
+  color: #fff;
+}
+
+.alinks {
+  margin-top: 5px;
+}
+
+.alink {
+  margin-top: 20px;
+}
+
+.gap {
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+}
+
+.frequently {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.thejobhuntdiv {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.lastdiv {
+  background-color: #1d293e;
+  padding: 40px;
+}
+
+.lastdiv p {
+  text-align: center;
+  color: #8291aa;
+}
+
+.hamburgericon {
+  display: none;
+  color: #829193;
+}
+
+.lastdivs input {
+  padding: 15px;
+  border: 3px solid#d4d9dd;
+  width: 98%;
+  margin-block: 20px;
+  border-radius: 5px;
+}
+
+.lastdivs input:hover {
+  border-color: #40484a;
+}
+
+.secondlogindiv {
+  background-color: #232a79;
+  padding: 20px;
+  padding-inline: 40px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.secondlogindiv p {
+  color: #fff;
+}
+
+.secondlogindiv:hover {
+  background-color: #fb236a;
+}
+
+.loginp {
+  color: #fff;
+}
+
+.lastedit {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lasteditp {
+  color: #4f555b;
+  font-size: 20px;
+  display: flex;
+  align-self: center;
+}
+
+@media screen and (max-width: 900px) {
+  .hamburgericon {
+    display: block;
+  }
+
+  ul {
+    display: none;
+  }
+
+  .pink-div {
+    display: none;
+  }
+
+  .keyandregister p {
+    display: none;
+  }
+
+  .login p {
+    display: none;
+  }
+
+  nav {
+    justify-content: space-evenly;
+    padding-inline: 50px;
+  }
+
+  .jobs {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .div-with-background-color {
+    padding-inline: 50px;
+  }
+
+  .biggerdiv {
+    width: 70%;
+  }
+
+  .registerdiv {
+    /* padding: 0; */
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .appleandgoogleplaydiv {
+    height: 65px;
+    width: 250px;
+  }
+}

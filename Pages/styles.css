@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica;
+  background-color: rgb(255, 255, 255, 0.5);
+  filter: grayscale(10px);
+}
+
+h1 {
+  font-size: 25px;
+}
+
+.h1 {
+  color: #fff;
+}
+
+.target-icon {
+  height: 30px;
+}
+
+.target-iconi {
+  color: #fff;
+}
+
+nav {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  /* gap: 90px; */
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  padding-block: 20px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.pink-div {
+  background-color: #fb236a;
+  display: flex;
+  align-items: center;
+  padding-block: 10px;
+  padding-inline: 30px;
+  justify-content: center;
+  gap: 7px;
+  border-radius: 3px;
+}
+
+.pink-div p {
+  color: #fff;
+  font-size: 18px;
+}
+
+.jobhuntdiv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+ul p {
+  font-size: 18px;
+}
+
+p {
+  color: #8d9b9e;
+  font-size: 14px;
+}
+
+.plus {
+  color: white;
+  font-size: 10px;
+  font-weight: lighter;
+}
+
+.keyandregister {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+}
+
+.keyandlogin {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.keyandregister i {
+  border-color: #bcc5c6;
+}
+
+.loginsvg {
+  height: 25px;
+}
+
+.key {
+  height: 25px;
+}
+
+.hamburgericon {
+  display: none;
+}
+
+.div-with-background-image {
+  background-image: url("../src/mslider3.jpg ");
+}
+
+.div-with-background-color {
+  height: 25vh;
+  margin-top: 75px;
+  background: #f6f9fa;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-inline: 75px;
+  text-align: center;
+  align-items: center;
+  color: #fff;
+}
+
+.jobs {
+  font-size: 30px;
+  color: black#384047;
+  font-weight: 600;
+}
+
+.border-bottom {
+  border-bottom: 1px solid black;
+}
+
+.homeandpostajob {
+  color: #829194;
+}
+
+.have {
+  font-size: 15px;
+  color: #464d4f;
+  font-weight: 600;
+  margin-left: 73px;
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+
+.bigdiv {
+  background-color: #cce5ff;
+  display: flex;
+  width: 90%;
+  justify-self: center;
+  justify-content: space-between;
+  padding-inline: 20px;
+  padding-block: 15px;
+  align-items: center;
+}
+
+.signindiv {
+  background-color: #007bff;
+  padding-block: 15px;
+  /* width: 5%; */
+  padding-inline: 30px;
+  border-radius: 5px;
+  color: #fff;
+}
+.bigdiv p {
+  color: #215b99;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.youremail {
+  font-size: 15px;
+  color: #464d4f;
+  font-weight: 600;
+
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.having input {
+  border: none;
+  outline: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.having {
+  border: 3px solid #d4d9dd;
+  width: 90%;
+  display: flex;
+  /* justify-content: center; */
+  justify-self: center;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.havings {
+  border: 3px solid #d4d9dd;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  justify-self: center;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+}
+
+.having:hover {
+  border-color: #464d4f;
+}
+
+.youremail span {
+  font-size: 10px;
+}
+
+.divthatcontainseverything p {
+  margin-left: 73px;
+}
+
+.secondone {
+  margin-left: 73px;
+}
+
+.select label {
+  color: #757f81;
+}
+
+.displaygirddiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.displaygirddiv p {
+  margin-left: 20px;
+}
+
+.having select {
+  width: 100%;
+  /* height: 100vh; */
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 17px;
+}
